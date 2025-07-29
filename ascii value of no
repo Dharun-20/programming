@@ -1,0 +1,19 @@
+
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt user for input
+        int a = scanner.nextInt();
+
+        // Convert integer to corresponding ASCII character
+        char n = (char) a;
+
+        // Output the result
+        System.out.println(n);
+
+        scanner.close();
+    }
+}
