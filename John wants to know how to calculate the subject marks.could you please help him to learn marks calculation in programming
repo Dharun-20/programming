@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc= new Scanner(System.in);
+        String a=sc.next();
+        int c =sc.nextInt();
+        int d =sc.nextInt();
+        int e =sc.nextInt();
+        int f =sc.nextInt();
+        int g =sc.nextInt();
+        int total=(c+d+e+f+g);
+        double h =(total)/5.0;
+        System.out.println("Name of the Student:" + a);
+        System.out.println("Total marks:" + total);
+        System.out.println("Average marks:" +h);                  
+}
+}
